@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "del": "^2.0.2",
+    "glob": "^6.0.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-header": "^1.2.2",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.5.3",
+    "normalize.css": "3.0.3",
+    "run-sequence": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "app-configs": {
+    "directories": {
+      "dist": "dist",
+      "src": "src"
+    }
+  },
+  "name": "zeezop",
+  "private": true,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "version": "0.0.1"
+}
